@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce - Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="web_page_body">
+    <ul class="navigation_list">
+        <li class="navigation_list_item">
+            <h3>
+                <a href="Home.html">Home</a>
+            </h3>
+        </li>
+        <li class="navigation_list_item">
+            <h3>
+                <a href="Contact.html">Contact</a>
+            </h3>
+        </li>
+        <li class="navigation_list_item">
+            <h3>
+                <a href="About.html">About</a>
+            </h3>
+        </li>
+        <li class="navigation_list_item">
+            <h3>
+                <a href="Product.html">Product</a>
+            </h3>
+        </li>
+        <li class="navigation_list_item">
+            <h3>
+                <a href="Login.html">Login</a>
+            </h3>
+        </li>
+        <li class="navigation_list_item">
+            <h3>
+                <a href="Register.html">Register</a>
+            </h3>
+        </li>
+    </ul>
+    <div>
+        <h1 id="user_type">User - Checkout</h1>
+        <form action="Order_success.html" method="Post">
+            <input type="text" name="Full name" placeholder="Full name" required><br><br>
+            <input type="text" name="Mobile number" placeholder="Mobile number" required><br><br>
+            <input type="text" name="E-mail" placeholder="E-mail" required><br><br>
+            <input type="text" name="City" placeholder="City" required><br><br>
+            <input type="text" name="City" placeholder="Address" required><br>
+            <br>
+            <label>Select payment method</label><br>
+            <input name="payment_method" type="radio">Cash on delivery<br><br>
+            <input name="payment_method" type="radio">Online<br><br>
+            <input type="submit" value="Place order">
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">E-commerce</div>
+            <ul class="footer-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            <div class="footer-copy">
+
+                &copy; E-commerce.All rights reserved
+            </div>
+    </footer>
+
+</html>
